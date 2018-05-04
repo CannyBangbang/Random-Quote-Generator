@@ -1,0 +1,76 @@
+body {
+  background: #697e46;
+}
+.mainBox {
+  width: 40%;
+  heigth: 30%;
+  background: #e7e3d4;
+  margin: 150px auto 0px auto;
+  padding: 2% 5% 2% 5%;
+  text-align: center;
+  border-radius: 5px;
+}
+p1 {
+  font-size: 44px;
+  font-family: 'Tangerine', serif;
+  color: #697e46;
+  font-weight: 600;
+  opacity: 0;
+}
+p2 {
+  font-size: 26px;
+  font-family: 'Tangerine', serif;
+  color: #697e46;
+  font-weight: 600;
+  opacity: 0;
+}
+p4 {
+  color: #002856;  
+}
+.btn-primary {
+  font-size: 20px;
+  font-family: 'Arvo';
+  font-weight: 550;
+  color: #e7e3d4;
+  background-color: #697e46;
+  border: none;
+  opacity: 1;
+  box-shadow: 0 2px #999;
+  outline: none !important;
+  height: 50px;
+  margin: 6px 3px 3px 3px;
+}
+.btn-square {
+  width: 50px;
+  height: 50px;
+}
+.button:hover {
+  background-color: #46542e;
+  color: #e7e3d4;
+}
+.button:active {
+  background-color: #7a9351; 
+  color: #e7e3d4;
+  box-shadow: 0 2px #343f23;
+  transform: translateY(3px);
+}
+.button:focus {
+  background-color: #697e46; 
+  color: #e7e3d4;
+  outline: none; !important;
+}
+.button:active:focus {
+  background-color: #697e46; 
+  color: #e7e3d4;
+}
+.authorBox {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.quote-source {
+  text-align: center;
+  position: fixed; 
+  bottom: 0;
+  width: 100%;
+}
+
