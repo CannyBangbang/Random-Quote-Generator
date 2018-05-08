@@ -1,24 +1,76 @@
 body {
   background: #697e46;
+  font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+  body {
+      font-size: 4.2em;
+  }
+  .btn {
+      font-size:20px;
+      padding: 2px 5px 2px 5px;
+      height: 34px;
+    }
+    .mainBox {
+      width: 85%;
+      margin: 40px auto 0px auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+      font-size: 4.4em;
+  }
+  .btn {
+      font-size:20px;
+      padding: 2px 5px 2px 5px;
+      height: 36px;
+    }
+    .mainBox {
+      width: 80%;
+      margin: 75px auto 0px auto;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+      font-size: 5em;
+  }
+  .btn {
+      font-size:20px;
+      height: 40px;
+      padding: 3px 6px 3px 6px;
+    }
+    .mainBox {
+      width: 50%;
+      margin: 110px auto 0px auto;
+    }
+}
+@media screen and (min-width: 1200px) {
+  body {
+      font-size: 5em;
+  }
+  .btn {
+      font-size:20px;
+      height: 45px;
+      padding: 3px 6px 3px 6px;
+    }
+    .mainBox {
+      width: 40%;
+      margin: 150px auto 0px auto;
+    }
 }
 .mainBox {
-  width: 40%;
-  heigth: 30%;
   background: #e7e3d4;
-  margin: 150px auto 0px auto;
   padding: 2% 5% 2% 5%;
   text-align: center;
   border-radius: 5px;
 }
 p1 {
-  font-size: 44px;
   font-family: 'Tangerine', serif;
   color: #697e46;
   font-weight: 600;
   opacity: 0;
 }
 p2 {
-  font-size: 26px;
   font-family: 'Tangerine', serif;
   color: #697e46;
   font-weight: 600;
@@ -28,7 +80,6 @@ p4 {
   color: #002856;  
 }
 .btn-primary {
-  font-size: 20px;
   font-family: 'Arvo';
   font-weight: 550;
   color: #e7e3d4;
@@ -37,12 +88,10 @@ p4 {
   opacity: 1;
   box-shadow: 0 2px #999;
   outline: none !important;
-  height: 50px;
   margin: 6px 3px 3px 3px;
 }
 .btn-square {
-  width: 50px;
-  height: 50px;
+  width: 45px;
 }
 .button:hover {
   background-color: #46542e;
@@ -57,7 +106,7 @@ p4 {
 .button:focus {
   background-color: #697e46; 
   color: #e7e3d4;
-  outline: none; !important;
+  outline: none !important;
 }
 .button:active:focus {
   background-color: #697e46; 
@@ -67,10 +116,3 @@ p4 {
   padding-top: 10px;
   padding-bottom: 40px;
 }
-.quote-source {
-  text-align: center;
-  position: fixed; 
-  bottom: 0;
-  width: 100%;
-}
-
