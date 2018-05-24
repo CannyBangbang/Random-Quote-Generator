@@ -4,59 +4,59 @@ body {
 }
 @media screen and (max-width: 767px) {
   body {
-      font-size: 4.2em;
+    font-size: 4.2em;
   }
   .btn {
-      font-size:20px;
-      padding: 2px 5px 2px 5px;
-      height: 34px;
-    }
-    .mainBox {
-      width: 85%;
-      margin: 40px auto 0px auto;
-    }
+    font-size: 20px;
+    padding: 2px 5px 2px 5px;
+    height: 34px;
+  }
+  .mainBox {
+    width: 85%;
+    margin: 40px auto 0px auto;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   body {
-      font-size: 4.4em;
+    font-size: 4.4em;
   }
   .btn {
-      font-size:20px;
-      padding: 2px 5px 2px 5px;
-      height: 36px;
-    }
-    .mainBox {
-      width: 80%;
-      margin: 75px auto 0px auto;
-    }
+    font-size: 20px;
+    padding: 2px 5px 2px 5px;
+    height: 36px;
+  }
+  .mainBox {
+    width: 80%;
+    margin: 75px auto 0px auto;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   body {
-      font-size: 5em;
+    font-size: 5em;
   }
   .btn {
-      font-size:20px;
-      height: 40px;
-      padding: 3px 6px 3px 6px;
-    }
-    .mainBox {
-      width: 50%;
-      margin: 110px auto 0px auto;
-    }
+    font-size: 20px;
+    height: 40px;
+    padding: 3px 6px 3px 6px;
+  }
+  .mainBox {
+    width: 50%;
+    margin: 110px auto 0px auto;
+  }
 }
 @media screen and (min-width: 1200px) {
   body {
-      font-size: 5em;
+    font-size: 5em;
   }
   .btn {
-      font-size:20px;
-      height: 45px;
-      padding: 3px 6px 3px 6px;
-    }
-    .mainBox {
-      width: 40%;
-      margin: 150px auto 0px auto;
-    }
+    font-size: 20px;
+    height: 45px;
+    padding: 3px 6px 3px 6px;
+  }
+  .mainBox {
+    width: 40%;
+    margin: 150px auto 0px auto;
+  }
 }
 .mainBox {
   background: #e7e3d4;
@@ -65,22 +65,22 @@ body {
   border-radius: 5px;
 }
 p1 {
-  font-family: 'Tangerine', serif;
+  font-family: "Tangerine", serif;
   color: #697e46;
   font-weight: 600;
   opacity: 0;
 }
 p2 {
-  font-family: 'Tangerine', serif;
+  font-family: "Tangerine", serif;
   color: #697e46;
   font-weight: 600;
   opacity: 0;
 }
 p4 {
-  color: #002856;  
+  color: #002856;
 }
 .btn-primary {
-  font-family: 'Arvo';
+  font-family: "Arvo";
   font-weight: 550;
   color: #e7e3d4;
   background-color: #697e46;
@@ -98,18 +98,18 @@ p4 {
   color: #e7e3d4;
 }
 .button:active {
-  background-color: #7a9351; 
+  background-color: #7a9351;
   color: #e7e3d4;
   box-shadow: 0 2px #343f23;
   transform: translateY(3px);
 }
 .button:focus {
-  background-color: #697e46; 
+  background-color: #697e46;
   color: #e7e3d4;
   outline: none !important;
 }
 .button:active:focus {
-  background-color: #697e46; 
+  background-color: #697e46;
   color: #e7e3d4;
 }
 .authorBox {
